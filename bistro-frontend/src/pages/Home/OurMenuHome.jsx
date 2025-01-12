@@ -15,7 +15,7 @@ const OurMenuHome = () => {
                 <MenuItems itemName="item name" description="loredddd ddddddddd ddddddd ddddddd dddddddddd ddddddd ddddddd"/>
                 <MenuItems itemName="item name" description="loredddd ddddddddd ddddddd ddddddd dddddddddd ddddddd ddddddd"/>
             </div>
-            <Button buttonText="view full menu" />
+            <Button buttonText="view full menu" mt="6" mb="5" />
         </div>
     );
 };

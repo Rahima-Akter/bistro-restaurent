@@ -25,10 +25,10 @@ const Navbar = () => {
                         tabIndex={0}
                         className="menu menu-sm dropdown-content bg-base-100 rounded-box z-[1] mt-3 w-52 p-2 shadow text-center py-8 text-black space-y-2">
                         <Link to="/">Home</Link>
-                        <Link>Contact Us</Link>
-                        <Link>Dashboard</Link>
-                        <Link to="ourMenu">Our Menu</Link>
-                        <Link to="ourShop">our Shop</Link>
+                        <Link to="/ourMenu">Our Menu</Link>
+                        <Link to="/ourShop">our Shop</Link>
+                        <Link to="/dashboard">Dashboard</Link>
+                        <Link to="/contact">Contact Us</Link>
                     </ul>
                 </div>
                 <a className="btn btn-ghost md:block hidden lg:-mb-0 -mb-4"><img src={logo} alt="" className='lg:w-40 w-32' /></a>
@@ -37,10 +37,10 @@ const Navbar = () => {
                 <div className="hidden lg:flex">
                     <ul className="menu menu-horizontal px-1 text-white font-semibold uppercase space-x-7">
                         <Link to="/">Home</Link>
-                        <Link>Contact Us</Link>
-                        <Link>Dashboard</Link>
-                        <Link to="ourMenu">Our Menu</Link>
-                        <Link to="ourShop">our Shop</Link>
+                        <Link to="/ourMenu">Our Menu</Link>
+                        <Link to="/ourShop">our Shop</Link>
+                        <Link to="/dashboard">Dashboard</Link>
+                        <Link to="/contact">Contact Us</Link>
                     </ul>
                 </div>
                 <div className="">

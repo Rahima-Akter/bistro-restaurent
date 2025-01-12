@@ -8,7 +8,7 @@ import DessertBanner from './DessertBanner';
 const OurMenu = () => {
     return (
         <div>
-            <SharedBanner img={bannerImg} pyl="20" mt="8%" title="OUR MENU" description="WOULD YOU LIKE TO TRY A DISH" />
+            <SharedBanner img={bannerImg} pyl="16" mt="8%" title="OUR MENU" description="WOULD YOU LIKE TO TRY A DISH" />
             <TodaysOffer />
             <DessertBanner />
             <PizzaBanner />
