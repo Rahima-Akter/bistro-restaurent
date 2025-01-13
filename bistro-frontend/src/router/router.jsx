@@ -4,6 +4,7 @@ import Home from "../pages/Home/Home";
 import OurMenu from "../pages/OurMenu/OurMenu";
 import OurShop from "../pages/OurShop/OurShop";
 import Contact from "../pages/Contact/Contact";
+import Login from "../component/Login-Register/Login";
 
 
 const router = createBrowserRouter([
@@ -27,8 +28,12 @@ const router = createBrowserRouter([
         path: '/contact',
         element: <Contact />
       },
-    ]
+    ],
   },
+  {
+    path: 'login',
+    element: <Login />
+  }
 ]);
 
 export default router;
